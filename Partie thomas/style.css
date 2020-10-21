@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    height: 400px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+                                            /* Correspond au bloc regroupant les partenaires et le contact */
+#conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+                                                                /* Bloc partenaire */
+.partenaires{
+    background-image: url(../images/Sans\ titre.jpg);
+    background-size: cover;
+}
+.partenaires .texte{
+    font-size: 16px;
+    top: 10%;
+}
+.partenaires .titre{
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    font-family: 'Libre Baskerville', serif;
+}
+.partenaires .savoir{
+    margin-top: 150px;
+    text-align: center;
+}
+.savoir{
+    display:block;
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #272727;
+    color: #ffffff;
+    font-size: 13.5px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height:40px;
+}
+.savoir > a{
+    text-decoration: none;
+    color: white;
+
+}
+.texte{
+    text-align: center;
+    color: white;
+}
+                                                        /* Bloc contact */
+.contact{
+    white-space: pre-line;
+    font-size: 20px;
+    background-color: #E38A56;
+    height: 100%;
+    display: block;
+    text-align: center;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+}
+.formulaire{
+    border: none;
+}
+input{
+    display: block;
+    text-align : center;
+    width: 800px;
+}
+
+textarea{
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.envoyer {
+    display:block;
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #272727;
+    color: #ffffff;
+    font-size: 13.5px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    line-height:40px;
+}
+.envoyer > a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+                                                                /* Footer */
+footer{
+    display: flex;
+    background-color: #272727;
+    color: white;
+    height: 120px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer > img{
+    height: 120px;
+    width: 120px;
+}
+.bloc1{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.bloc2{
+    margin-right: auto;
+    margin-left: auto;
+}
+.bloc3{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo1 >img{
+    width: 30px;
+}
+.logo2 >img{
+    width: 50px;
+}
+
